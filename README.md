@@ -2,9 +2,9 @@
 
 <br>
 
-## **Seqential**
+## **Sequential**
 
-`mult_matrices_sequential.c` does it in a sequential manner.
+`mult_matrices_sequential.c`
 ```
  gcc mult_matrices_sequential.c -o mult.out
  ./mult.out
@@ -14,7 +14,7 @@
 
 ## **Parallel**
 
-`mult_matrices_parallel.c` &ensp; divides generation/calculation of all the points use to make the pi stimation between all the threads
+`mult_matrices_parallel.c`
 ```
  gcc -fopenmp mult_matrices_parallel.c -o mult_parralel.out
  ./mult_parralel.out
